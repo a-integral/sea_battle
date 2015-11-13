@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>687</width>
-    <height>391</height>
+    <width>640</width>
+    <height>420</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Sea Battle by rvlrp</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QTableWidget" name="myfield">
@@ -168,7 +168,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>245</y>
+      <y>250</y>
       <width>261</width>
       <height>16</height>
      </rect>
@@ -200,8 +200,8 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>260</y>
-      <width>120</width>
+      <y>270</y>
+      <width>141</width>
       <height>80</height>
      </rect>
     </property>
@@ -273,13 +273,18 @@
       <bool>true</bool>
      </property>
     </widget>
+    <zorder>radioButton_1deck</zorder>
+    <zorder>radioButton_2deck</zorder>
+    <zorder>radioButton_3deck</zorder>
+    <zorder>radioButton_4deck</zorder>
+    <zorder>line</zorder>
    </widget>
    <widget class="QGroupBox" name="gui_shippos">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>260</y>
-      <width>120</width>
+      <x>180</x>
+      <y>270</y>
+      <width>141</width>
       <height>80</height>
      </rect>
     </property>
@@ -315,14 +320,17 @@
       <string>Вертикально</string>
      </property>
     </widget>
+    <zorder>radioButton_2</zorder>
+    <zorder>radioButton</zorder>
+    <zorder>line</zorder>
    </widget>
    <widget class="QPushButton" name="randomput">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>230</y>
+      <x>170</x>
+      <y>225</y>
       <width>85</width>
-      <height>21</height>
+      <height>25</height>
      </rect>
     </property>
     <property name="text">
@@ -332,10 +340,10 @@
    <widget class="QPushButton" name="savebutton">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>50</y>
-      <width>131</width>
-      <height>21</height>
+      <x>460</x>
+      <y>40</y>
+      <width>171</width>
+      <height>30</height>
      </rect>
     </property>
     <property name="text">
@@ -345,10 +353,10 @@
    <widget class="QPushButton" name="newgamebutton">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>460</x>
       <y>130</y>
-      <width>131</width>
-      <height>26</height>
+      <width>170</width>
+      <height>30</height>
      </rect>
     </property>
     <property name="text">
@@ -358,9 +366,9 @@
    <widget class="QPushButton" name="loadbutton">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>460</x>
       <y>80</y>
-      <width>131</width>
+      <width>171</width>
       <height>41</height>
      </rect>
     </property>
@@ -375,8 +383,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>687</width>
-     <height>22</height>
+     <width>640</width>
+     <height>27</height>
     </rect>
    </property>
   </widget>
