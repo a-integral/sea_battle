@@ -162,7 +162,7 @@ int myfield::strike(int x,int y)
            }//сверху
            if (validpos(xship,yship+nship))
            {
-               field[xship][yship+1]=-1;
+               field[xship][yship+nship]=-1;
                QTableWidgetItem * ti=gui->myfield->item(yship+nship,xship);
                if(!ti){
                    ti=new QTableWidgetItem();

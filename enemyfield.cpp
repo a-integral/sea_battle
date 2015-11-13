@@ -147,7 +147,7 @@ int enemyfield::strike(int x,int y)
            }//сверху
            if (validpos(xship,yship+nship))
            {
-               field[xship][yship+1]=-1;
+               field[xship][yship+nship]=-1;
                QTableWidgetItem * ti=gui->enemyfield->item(yship+nship,xship);
                if(!ti){
                    ti=new QTableWidgetItem();
@@ -548,8 +548,8 @@ void enemyfield::load()
                         ti=new QTableWidgetItem();
                         gui->enemyfield->setItem(y,x,ti);
                     }
-                    gui->enemyfield->item(y,x)->setText("X");
-                    gui->enemyfield->item(y,x)->setBackgroundColor(QColor(255,255,0));
+                    //gui->enemyfield->item(y,x)->setText("X");
+                    //gui->enemyfield->item(y,x)->setBackgroundColor(QColor(255,255,0));
                 }
 
             }
